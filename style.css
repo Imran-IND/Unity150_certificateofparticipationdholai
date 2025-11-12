@@ -90,6 +90,14 @@ button:hover {
   text-transform: uppercase;
 }
 
+/* For large screens (desktop 1024px and above) */
+@media (min-width: 1024px) {
+  #participantName {
+    top: 50%; /* move slightly up for desktop */
+    font-size: 22px; /* make text slightly bigger if needed */
+  }
+}
+
 /* For tablets (768px and below) */
 @media (max-width: 768px) {
   #participantName {
@@ -105,6 +113,7 @@ button:hover {
     font-size: 08px;
   }
 }
+
 
 
 
