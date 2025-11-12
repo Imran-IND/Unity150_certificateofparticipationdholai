@@ -73,7 +73,7 @@ button:hover {
 
 #participantName {
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
@@ -90,18 +90,10 @@ button:hover {
   text-transform: uppercase;
 }
 
-/* For large screens (desktop 1024px and above) */
-@media (min-width: 1024px) {
-  #participantName {
-    top: 48%; /* move slightly up for desktop */
-    font-size: 22px; /* make text slightly bigger if needed */
-  }
-}
-
 /* For tablets (768px and below) */
 @media (max-width: 768px) {
   #participantName {
-    top: 65%; /* adjust slightly upward */
+    top: 51%; /* adjust slightly upward */
     font-size: 18px;
   }
 }
@@ -109,28 +101,10 @@ button:hover {
 /* For mobile (480px and below) */
 @media (max-width: 480px) {
   #participantName {
-    top: 65%; /* fine-tuned for smaller screens */
+    top: 51%; /* fine-tuned for smaller screens */
     font-size: 08px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
