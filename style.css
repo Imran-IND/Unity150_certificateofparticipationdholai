@@ -93,7 +93,7 @@ button:hover {
 /* For large screens (desktop 1024px and above) */
 @media (min-width: 1024px) {
   #participantName {
-    top: 45%; /* move slightly up for desktop */
+    top: 48%; /* move slightly up for desktop */
     font-size: 22px; /* make text slightly bigger if needed */
   }
 }
@@ -113,6 +113,7 @@ button:hover {
     font-size: 08px;
   }
 }
+
 
 
 
