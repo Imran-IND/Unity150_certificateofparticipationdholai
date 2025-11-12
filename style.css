@@ -101,7 +101,7 @@ button:hover {
 /* For tablets (768px and below) */
 @media (max-width: 768px) {
   #participantName {
-    top: 51%; /* adjust slightly upward */
+    top: 55%; /* adjust slightly upward */
     font-size: 18px;
   }
 }
@@ -109,10 +109,11 @@ button:hover {
 /* For mobile (480px and below) */
 @media (max-width: 480px) {
   #participantName {
-    top: 51%; /* fine-tuned for smaller screens */
+    top: 55%; /* fine-tuned for smaller screens */
     font-size: 08px;
   }
 }
+
 
 
 
